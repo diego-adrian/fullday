@@ -1,0 +1,39 @@
+{
+  "name": "fullday",
+  "version": "1.0.1",
+  "description": "Este es un paquete para node usando un builder como vite para publicar el dist",
+  "main": "dist/my-lib-main.umd.js",
+  "module": "dist/my-lib-main.es.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diego-adrian/fullday.git"
+  },
+  "keywords": [
+    "esm",
+    "umd",
+    "amd",
+    "cjs",
+    "node",
+    "ts"
+  ],
+  "author": "adrian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/diego-adrian/fullday/issues"
+  },
+  "homepage": "https://github.com/diego-adrian/fullday#readme",
+  "devDependencies": {
+    "@types/node": "^22.10.7",
+    "dayjs": "^1.11.13",
+    "typescript": "~5.6.2",
+    "vite": "^6.0.5"
+  }
+}
