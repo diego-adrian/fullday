@@ -20,7 +20,6 @@ export function isWeekend(date: string | Date) {
 }
 
 /**
- * 
  * @param {*} date 
  * @returns boolean if the date is valid
  */
@@ -28,6 +27,4 @@ export function isValidDate(date: string | Date) {
   return dayjs(date).isValid();
 }
 
-export {
-  dayjs
-};
+export { dayjs };
