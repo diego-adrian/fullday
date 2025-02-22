@@ -1,7 +1,7 @@
 {
   "name": "fullday",
   "version": "1.0.2",
-  "description": "Este es un paquete para node usando un builder como vite para publicar el dist",
+  "description": "Este es un paquete para node usando un builder como vite para publicar el dist a nuestro repo",
   "main": "dist/my-lib-main.umd.js",
   "module": "dist/my-lib-main.es.js",
   "files": [
